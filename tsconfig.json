@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ],
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "src/**/*",
+    "custom.d.ts"
+  ],
+  "extends": "expo/tsconfig.base",
+  "files": [
+    "custom.d.ts"
+  ],
+  "typeRoots": [
+    "./src/custom.d.ts"
+  ]
+}
